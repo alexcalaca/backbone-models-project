@@ -1,4 +1,5 @@
 
-// In the first few sections, we do all the coding here.
-// Later, you'll see how to organize your code into separate
-// files and modules.
+//Create backbone vehicle model 
+var Vehicle = Backbone.Model.extend({
+
+});
