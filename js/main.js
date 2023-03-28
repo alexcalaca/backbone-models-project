@@ -37,3 +37,6 @@ var car = new Car({
   registrationNumber: "BLI288",
   color: "Brown"
 });
+
+//Remove value of car
+car.unset("registrationNumber");
