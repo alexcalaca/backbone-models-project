@@ -27,4 +27,8 @@ var Vehicle = Backbone.Model.extend({
 });
 
 var Car = Vehicle.extend({
+  start: function(){
+    console.log("Car with registration number " +
+      this.get("registrationNumber") + " started.");
+  }
 });
