@@ -25,3 +25,6 @@ var Vehicle = Backbone.Model.extend({
   }
 
 });
+
+var Car = Vehicle.extend({
+});
