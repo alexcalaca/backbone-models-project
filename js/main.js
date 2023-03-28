@@ -6,6 +6,10 @@ var Vehicle = Backbone.Model.extend({
   initialize: function(){
     console.log("initialized");
   },
+
+  //Vehicle unique identification
+  idAttribute: "registrationNumber",
+
   //Create a method called start
   start: function(){
     console.log("Vehicle started.");
