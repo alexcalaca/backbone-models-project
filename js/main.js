@@ -48,3 +48,5 @@ car.set("registrationNumber", "BPI287");
 
 if (!car.isValid())
   console.log(car.validationError);
+
+car.start();
