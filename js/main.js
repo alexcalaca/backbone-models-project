@@ -32,3 +32,8 @@ var Car = Vehicle.extend({
       this.get("registrationNumber") + " started.");
   }
 });
+
+var car = new Car({
+  registrationNumber: "BLI288",
+  color: "Brown"
+});
