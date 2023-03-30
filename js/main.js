@@ -66,4 +66,8 @@ var vehicles = new Vehicles([
 ]);
 
 var vehicle1 = new Vehicle({registrationNumber: "LDT281", color: "gray"});
+
+//Remove specific model
+vehicles.pop(vehicle1);
+
 car.start();
