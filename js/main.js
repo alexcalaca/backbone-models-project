@@ -65,4 +65,5 @@ var vehicles = new Vehicles([
   new Vehicle({registrationNumber: "NLA184", color: "brown"})
 ]);
 
+var vehicle1 = new Vehicle({registrationNumber: "LDT281", color: "gray"});
 car.start();
