@@ -73,4 +73,6 @@ vehicles.pop(vehicle1);
 //Add a model at the end of a collection
 vehicles.push({ registrationNumber: "ABC123", color: "yellow"});
 
+//Remove last element
+vehicles.pop();
 car.start();
