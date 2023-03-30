@@ -70,4 +70,7 @@ var vehicle1 = new Vehicle({registrationNumber: "LDT281", color: "gray"});
 //Remove specific model
 vehicles.pop(vehicle1);
 
+//Add a model at the end of a collection
+vehicles.push({ registrationNumber: "ABC123", color: "yellow"});
+
 car.start();
