@@ -57,4 +57,12 @@ var Vehicles = Backbone.Collection.extend({
   },
   model: Vehicle
 });
+
+var vehicles = new Vehicles([
+  new Vehicle({registrationNumber: "LDT281", color: "gray"}),
+  new Vehicle({registrationNumber: "XLI887", color: "brown"}),
+  new Vehicle({registrationNumber: "AHT283", color: "gray"}),
+  new Vehicle({registrationNumber: "NLA184", color: "brown"})
+]);
+
 car.start();
