@@ -88,4 +88,7 @@ console.log("All gray cars: ", allGrayCars);
 var onlyColors = vehicles.pluck("color");
 console.log("Only colors: ", onlyColors);
 //alert(JSON.stringify("Only colors: ", onlyColors));
+
+console.log("Vehicles as JSON", vehicles.toJSON());
+
 car.start();
