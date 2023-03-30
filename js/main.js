@@ -48,5 +48,8 @@ car.set("registrationNumber", "BPI287");
 
 if (!car.isValid())
   console.log(car.validationError);
-
+//create collection
+var Vehicles = Backbone.Collection.extend({
+  model: Vehicle
+});
 car.start();
