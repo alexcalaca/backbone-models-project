@@ -75,8 +75,13 @@ vehicles.push({ registrationNumber: "ABC123", color: "yellow"});
 
 //Remove last element
 vehicles.pop();
+
 //Find first element
 var firstBrownCar = vehicles.findWhere({ registrationNumber: "AHT283" });
 console.log("First brown car: ", firstBrownCar);
+
+//Find all elements
+var allGrayCars = vehicles.where({ color: "gray"});
+console.log("All gray cars: ", allGrayCars);
 
 car.start();
