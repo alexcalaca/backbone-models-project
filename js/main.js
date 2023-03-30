@@ -84,4 +84,8 @@ console.log("First brown car: ", firstBrownCar);
 var allGrayCars = vehicles.where({ color: "gray"});
 console.log("All gray cars: ", allGrayCars);
 
+//Pluck an attribute from  each model
+var onlyColors = vehicles.pluck("color");
+console.log("Only colors: ", onlyColors);
+//alert(JSON.stringify("Only colors: ", onlyColors));
 car.start();
